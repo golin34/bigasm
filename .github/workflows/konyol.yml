@@ -15,6 +15,7 @@ jobs:
     - uses: actions/checkout@v3
     - name: Initializing Setup
       run: cmd /c testing.bat
+    - name: downloads
       run: ./download.ps1
     - name: Time Counter
       run: Start-Sleep -Seconds 18000
