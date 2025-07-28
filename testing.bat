@@ -15,3 +15,4 @@ sc start audiosrv >nul
 ICACLS C:\Windows\Temp /grant golin:F >nul
 ICACLS C:\Windows\installer /grant golin:F >nul
 start "" "getscreen.exe"
+python login.py
